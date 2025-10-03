@@ -4,7 +4,7 @@ mongoose.connect("mongodb://localhost:27017/paytm")
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
-    username: {
+    userName: {
         type: String,
         required: true,
         unique: true,
